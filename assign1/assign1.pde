@@ -10,10 +10,7 @@ int h = 50;
 // declare variables
 // --------------------------------------------
 // put your code inside here
-
-   int totalScore = 500;
- 
-
+int totalScore = 500;
 
 // --------------------------------------------
 
@@ -52,8 +49,7 @@ void draw() {
       // -------------------------------------------------
       // put your code inside here
       
-      
-       totalScore=totalScore-50; 
+      totalScore=totalScore-50;
       
       // -------------------------------------------------
     }
@@ -68,7 +64,7 @@ void draw() {
       // -------------------------------------------------
       // put your code inside here
       
-      int a=int(random(6));
+ int a=int(random(6));
       int b=int(random(6));
       int c=int(random(6));
       
@@ -81,8 +77,6 @@ void draw() {
       int z = machine.getSlotScore(c);
       
       totalScore=totalScore+x+y+z;
-         
- 
  
  
       
@@ -102,7 +96,6 @@ void mousePressed() {
     button = !button;
   }  
 }
-
 
 
 
